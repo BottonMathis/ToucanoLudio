@@ -1,0 +1,237 @@
+/*!*underline NAV*!*/
+
+/*.nav_up_container > div:nth-child(3)::after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    bottom: -1.4vw;*/
+/*    width: 2.5vw;*/
+/*    left: 90%;*/
+/*    height: 0.4vw;*/
+/*    background: var(--first-toned-color);*/
+/*    border-radius: 5em;*/
+/*}*/
+
+body > div.app > .container {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.app > div > div:nth-child(2) {
+    gap: 0.7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.app > div > div:nth-child(2) > div {
+    gap: 1vw;
+}
+
+.app > div > div:nth-child(2) > h3 {
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 2vw;
+}
+
+/* DROPDOWN */
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dd-button {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 1vw 3vw 1vw 1vw;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.dd-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+}
+
+.dd-button:hover {
+    background-color: #eeeeee;
+}
+
+
+.dd-input {
+    display: none;
+}
+
+.dd-menu {
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+}
+
+.dd-input + .dd-menu {
+    display: none;
+}
+
+.dd-input:checked + .dd-menu {
+    display: block;
+}
+
+.dd-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.dd-menu li:hover {
+    background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+}
+
+.dd-menu li.divider{
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+.items_container {
+    position: relative;
+    margin-top: 3vw;
+    gap: 5vw;
+}
+
+.toy_library > div > div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2vw 4vw;
+    gap: 3vw;
+    background-color: var(--first-color);
+    border-radius: 0.5vw;
+    position: relative;
+}
+
+.toy_library > div > div > .left_part {
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    background-color: white;
+    width: 15%;
+    border-radius: 0.5vw;
+}
+
+body > div.app > div > div.toy_library > div > div:nth-child(1) > div.left_part {
+    background-image: url("../img/clickonproduct/7-wonders-duel-1.jpg");
+}
+
+body > div.app > div > div.toy_library > div > div:nth-child(2) > div.left_part {
+    background-image: url("../img/games/Texto.jpg");
+    background-size: 100%;
+}
+
+.toy_library > div > div > .right_part {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 45%;
+    gap: 1vw;
+}
+
+.toy_library > div > div > div.right_part > div:nth-child(1) > p:nth-child(1) {
+    font-size: 1.5vw;
+}
+
+.toy_library > div > div > div.right_part > div:nth-child(1) > p:nth-child(2) {
+    font-family: "Barlow Light",sans-serif;
+}
+
+.toy_library > div > div > div.right_part > div:nth-child(2) {
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.right_part > div.d_flex_row > span {
+    width: 2vw;
+}
+
+
+.toy_library > div > div > div.right_part > div:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.toy_library > div > div > div.right_part > div:nth-child(3) > div {
+    padding: 1vw 1vw;
+    gap: 1vw;
+    border-radius: 0.5vw;
+    background-color: var(--first-color-dark);
+}
+
+.toy_library > div > div > div.right_part > div:nth-child(3) > div > svg {
+    width: 1.2vw;
+    height: 1.2vw;
+}
+
+.toy_library > div > div > div.right_part > div:nth-child(3) > div > p {
+    color: white;
+}
+
+/*LOGO DELETE*/
+
+.logo_heart {
+    position: absolute;
+    top: 14%;
+    left: 93%;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+
+.toy_library > div > div > div:nth-child(3) {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 23vw;
+ }
+
+.toy_library > div > div > div:nth-child(3) > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw 1vw;
+    gap: 1vw;
+    border-radius: 0.5vw;
+    background-color: var(--first-toned-color);
+}
+.toy_library > div > div > div:nth-child(3) > div > p {
+    color: white;
+}
+
+.toy_library > div > div > div:nth-child(3) > div > svg {
+    width: 0.5vw;
+    height: 0.5vw;
+}

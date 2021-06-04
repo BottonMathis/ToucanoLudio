@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3235514a-1b84-4e98-b0f4-aa912991ba9c" name="Default Changelist" comment="INIT">
+      <change afterPath="$PROJECT_DIR$/img/decorations/set_of_leaves_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/games/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/games/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/games/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/games/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/games/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/games/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/games/JardinOrient.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logos/pictograms/logo_arrow_round.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/wishlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/.idea/Intégration.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/clickonproduct.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/css/clickonproduct.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/clickonproduct/7-wonders-duel-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/clickonproduct/7-wonders-duel-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/clickonproduct/7-wonders-duel-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/clickonproduct/age.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/clickonproduct/favanimation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/clickonproduct/favorite-empty.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/clickonproduct/favorite-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/clickonproduct/ludotheque.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/clickonproduct/offers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/clickonproduct/question.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/clickonproduct/time.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/decorations/bg_wave_01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/decorations/bg_wave_02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/decorations/bg_wave_03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/decorations/bg_wave_04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/decorations/bg_wave_05.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/decorations/dotted_lines.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/decorations/leave_01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/decorations/leave_02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/decorations/pawn_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/decorations/pawn_yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/decorations/set_of_leaves.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/decorations/shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/declination/declination_beige.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/declination/declination_black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/declination/declination_blue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/declination/declination_color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/declination/declination_orange.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/declination/declination_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/networks/logo_facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/networks/logo_facebook_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/networks/logo_google.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/networks/logo_instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/networks/logo_linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/normal/logo_beige.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/normal/logo_black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/normal/logo_blue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/normal/logo_color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/normal/logo_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/favorite-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/favorite-round.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/favorite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_cross.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_discoveries.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_flag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_friendly.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_innovative.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_name.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_name.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_preferences.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_recommendations.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_security.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_security_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_subscription.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_suggestions.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_toy_library.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/logo_visible.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/logos/pictograms/stain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/pictures/background_form_connexion_laptop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/pictures/board_games_directional_blur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/pictures/img_article_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/pictures/mathis.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/pictures/nathan.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intégration de Thibaud/img/pictures/thibaud.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/all-games.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/all-games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/clickonproduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/game1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/game-library.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/game-library.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/games-of-the-month.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/games-of-the-month.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/heart-stroke.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/heart-stroke.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/home-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/wishlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/all-games.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/all-games.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/clickonproduct.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/clickonproduct.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/forms/laptop/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/forms/laptop/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/game-library.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/game-library.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/games-of-the-month.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/games-of-the-month.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/heart-stroke.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/heart-stroke.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/premium.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/premium.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/wishlist.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/wishlist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/go_top.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/go_top.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/passeword.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/category.vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuejs/games.vue.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1qAqtin5SqFOi9oxg4uclF8uef5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\landing-page-toucano-ludio-test\components" />
+      <recent name="C:\Users\mathi\Documents\MMI 1ère année\PROJETS\Projet collectif\TOUCAN LUDIO\landing-page-toucano-ludio-test\img\logos\declination" />
+      <recent name="C:\Users\mathi\Documents\MMI 1ère année\PROJETS\Projet collectif\TOUCAN LUDIO\landing-page-toucano-ludio\html\forms\laptop\application-web" />
+      <recent name="C:\Users\mathi\Documents\MMI 1ère année\PROJETS\Projet collectif\TOUCAN LUDIO\landing-page-toucano-ludio\html\forms\laptop\landing-page" />
+      <recent name="C:\Users\mathi\Documents\MMI 1ère année\PROJETS\Projet collectif\TOUCAN LUDIO\landing-page-toucano-ludio\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\toucano-ludio" />
+      <recent name="C:\MAMP\htdocs\toucano-ludio\vuejs" />
+      <recent name="C:\MAMP\htdocs\toucano-ludio\img\games" />
+      <recent name="C:\MAMP\htdocs\toucano-ludio\img\logos\pictograms" />
+      <recent name="C:\MAMP\htdocs\toucano-ludio\img\decorations" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/app.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3235514a-1b84-4e98-b0f4-aa912991ba9c" name="Default Changelist" comment="" />
+      <created>1616532959408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616532959408</updated>
+      <workItem from="1616532960732" duration="14555000" />
+      <workItem from="1616578204513" duration="6481000" />
+      <workItem from="1616584833196" duration="9010000" />
+      <workItem from="1616608204256" duration="8049000" />
+      <workItem from="1616668602718" duration="360000" />
+      <workItem from="1616828953055" duration="19338000" />
+      <workItem from="1616925947978" duration="17657000" />
+      <workItem from="1616949496038" duration="3928000" />
+      <workItem from="1616970530510" duration="2997000" />
+      <workItem from="1617005387574" duration="7212000" />
+      <workItem from="1617033405683" duration="22825000" />
+      <workItem from="1617092098014" duration="969000" />
+      <workItem from="1617093537148" duration="1072000" />
+      <workItem from="1617109511240" duration="18287000" />
+      <workItem from="1617137725133" duration="9879000" />
+      <workItem from="1617170745096" duration="6814000" />
+      <workItem from="1617201105545" duration="80000" />
+      <workItem from="1617260584945" duration="365000" />
+      <workItem from="1617350841285" duration="9000" />
+      <workItem from="1617439355324" duration="3951000" />
+      <workItem from="1618036552631" duration="7879000" />
+      <workItem from="1618176581701" duration="9490000" />
+      <workItem from="1618231541872" duration="15167000" />
+      <workItem from="1618319865384" duration="27508000" />
+      <workItem from="1618407552268" duration="19201000" />
+      <workItem from="1618485358754" duration="17104000" />
+      <workItem from="1618573843974" duration="3712000" />
+      <workItem from="1618648689998" duration="8203000" />
+      <workItem from="1618745763727" duration="1199000" />
+      <workItem from="1618756159444" duration="6056000" />
+      <workItem from="1618923979524" duration="16819000" />
+      <workItem from="1619008072346" duration="7610000" />
+      <workItem from="1619383129181" duration="9000" />
+      <workItem from="1619437666345" duration="377000" />
+      <workItem from="1619446105757" duration="642000" />
+      <workItem from="1619504744247" duration="596000" />
+      <workItem from="1620069797671" duration="968000" />
+      <workItem from="1620163952384" duration="5000" />
+      <workItem from="1621058978080" duration="857000" />
+      <workItem from="1621059881006" duration="10171000" />
+      <workItem from="1621093524139" duration="790000" />
+      <workItem from="1621577470967" duration="349000" />
+      <workItem from="1621579146745" duration="5000" />
+      <workItem from="1621664368115" duration="15568000" />
+      <workItem from="1621892961090" duration="2000" />
+      <workItem from="1622204896284" duration="338000" />
+      <workItem from="1622205251138" duration="382000" />
+      <workItem from="1622206661617" duration="26167000" />
+      <workItem from="1622278629161" duration="1772000" />
+      <workItem from="1622280537061" duration="41447000" />
+      <workItem from="1622378050480" duration="40246000" />
+      <workItem from="1622467573475" duration="757000" />
+      <workItem from="1622469638088" duration="15000" />
+      <workItem from="1622469990518" duration="12893000" />
+      <workItem from="1622491937824" duration="801000" />
+      <workItem from="1622499153490" duration="7000" />
+      <workItem from="1622499443244" duration="757000" />
+      <workItem from="1622546570079" duration="108000" />
+      <workItem from="1622551903841" duration="56000" />
+      <workItem from="1622573887341" duration="2205000" />
+      <workItem from="1622581251355" duration="3634000" />
+      <workItem from="1622615122245" duration="104000" />
+      <workItem from="1622617786598" duration="832000" />
+      <workItem from="1622646280366" duration="250000" />
+      <workItem from="1622657333052" duration="56243000" />
+      <workItem from="1622765295248" duration="297000" />
+      <workItem from="1622765612734" duration="430000" />
+      <workItem from="1622766061589" duration="174000" />
+      <workItem from="1622766251452" duration="9000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1618047534046</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618047534046</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1618047666658</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618047666658</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <created>1618322622286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618322622286</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test">
+      <created>1618759395372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618759395372</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test">
+      <created>1618766661602</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618766661602</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test">
+      <created>1622388896399</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622388896399</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Le formulaire marche">
+      <created>1622393281710</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622393281710</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Le formulaire marche + Barre recherche">
+      <created>1622584802053</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622584802053</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Le formulaire marche + Barre recherche">
+      <created>1622661529376</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622661529376</updated>
+    </task>
+    <task id="LOCAL-00010" summary="INIT">
+      <created>1622727534687</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1622727534687</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="test" />
+    <MESSAGE value="Le formulaire marche" />
+    <MESSAGE value="Le formulaire marche + Barre recherche" />
+    <MESSAGE value="INIT" />
+    <option name="LAST_COMMIT_MESSAGE" value="INIT" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="91" key="#Inspections" timestamp="1622301567136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="91" key="#Inspections/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622301567136" />
+    <state x="515" y="237" key="#Notifications" timestamp="1622727662183">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="515" y="237" key="#Notifications/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622727662183" />
+    <state x="2341" y="72" key="#SSH_Configurations" timestamp="1622666071919">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2341" y="72" key="#SSH_Configurations/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622666071919" />
+    <state x="223" y="67" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618500845808">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1618500845808" />
+    <state x="2544" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622664015473">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622236461344" />
+    <state x="2544" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622664015473" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1622280627815" />
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1622405180028">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622405180028" />
+    <state x="510" y="0" width="824" height="764" key="FileChooserDialogImpl" timestamp="1622727655972">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="510" y="0" width="824" height="764" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622727655972" />
+    <state x="2606" y="211" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622714527840" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622546676113" />
+    <state x="598" y="310" key="Github.ShareDialog" timestamp="1622727574940">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="598" y="310" key="Github.ShareDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622727574940" />
+    <state x="2668" y="391" key="Github.ShareDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618766580023" />
+    <state x="598" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1618046444900" />
+    <state x="2713" y="443" key="NewPhpFileDialog" timestamp="1622724980019">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2713" y="443" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622724980019" />
+    <state x="371" y="115" key="RollbackChangesDialog" timestamp="1618500872759">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="371" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1618500872759" />
+    <state x="2266" y="72" key="SettingsEditor" timestamp="1622666245556">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2266" y="72" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622666245556" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622276549028" />
+    <state width="498" height="445" key="SwitcherDM" timestamp="1622732340498">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="445" key="SwitcherDM/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622732340498" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622726685570">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622726685570" />
+    <state x="2371" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618766664899" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1621066514083" />
+    <state x="452" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1622748594395">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="452" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622748594395" />
+    <state x="2485" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622736969270" />
+    <state x="452" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1618924158872" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622727643382">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622727643382" />
+    <state x="2653" y="411" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618766508900" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1621065944721" />
+    <state x="2283" y="158" width="1550" height="771" key="dock-window-1" timestamp="1617123321776">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2283" y="158" width="1550" height="771" key="dock-window-1/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617123321776" />
+    <state x="478" y="145" width="731" height="534" key="find.popup" timestamp="1622279793011">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="731" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1622279793011" />
+    <state x="2648" y="157" width="271" height="539" key="ftp.server.browser" timestamp="1622666236590">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2648" y="157" width="271" height="539" key="ftp.server.browser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622666236590" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1622749916720">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622749916720" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617112843153" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1619014917091" />
+    <state x="2459" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1616957602842">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1616533524489" />
+    <state x="2459" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616957602842" />
+  </component>
+</project>

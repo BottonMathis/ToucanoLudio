@@ -1,0 +1,225 @@
+/*----------- Premier gros bloc (image + description)-----------*/
+.container{
+    justify-content: space-between;
+    /*
+    background-color:indianred;
+    */
+    height:50vw;
+    margin-top:7vw;
+}
+
+/*------------ Bloc gauche (grande image + 3 petites images) ------------*/
+.left-container{
+    /*
+    background-color:cornflowerblue;
+    */
+    height:100%;
+    width:45%;
+    justify-content: space-between;
+}
+
+/* Bloc gauche - bloc haut (image) */
+.left-container> div:nth-child(1){
+    background-color: white;
+    height:70%;
+    border-radius: 8px;
+    position:relative;
+}
+
+/* Bloc gauche - grande image */
+.left-container> div:nth-child(1)>img:nth-child(1){
+    width:70%;
+}
+
+/* Bloc gauche - Coeur */
+.left-container> div:nth-child(1)>img:nth-child(2){
+    width:8%;
+    position:absolute;
+    bottom:5%;
+    right:5%;
+    cursor:pointer;
+}
+
+
+
+
+/* Bloc gauche - bloc bas (3 images) */
+.left-container> div:nth-child(2){
+    /*
+    background-color: hotpink;
+    */
+    height:30%;
+    width:70%;
+    margin-top:-70%;
+
+}
+
+/* Bloc gauche - 3 petites images */
+.left-container> div:nth-child(2)>div>img {
+    width: 58%;
+}
+
+/* Bloc gauche - 3 petites images - fond blanc */
+.left-container> div:nth-child(2)>div:nth-child(n+1){
+    background-color: white;
+    height:40%;
+    width:100%;
+    border-radius: 5px;
+}
+
+/* Bloc gauche - 3 petites images - espacements entre elles */
+.left-container> div:nth-child(2)>div:nth-child(1){
+    margin-right: 2px;
+    border: 1px solid #FEAA28 ;
+}
+.left-container> div:nth-child(2)>div:nth-child(2){
+    margin: 0 6px;
+}
+.left-container> div:nth-child(2)>div:nth-child(3){
+    margin-left: 2px;
+}
+
+.left-container> div:nth-child(2)>div{
+    transform: translateY(-30%);
+}
+
+/*------------ Bloc droite (description etc) ------------*/
+.right-container{
+    /*
+    background-color:yellowgreen;
+    */
+    height:100%;
+    width:45%;
+}
+
+/* Bloc droit - Titres */
+.right-container h1{
+    font-size:2.5vw;
+    font-weight: 600;
+}
+
+.right-container h2{
+    font-size:1.5vw;
+    font-weight: 500;
+}
+
+/* Bloc droit - Étoiles toucans */
+.right-container>.stars{
+    justify-content: normal;
+
+    margin:3.5vw 0 1vw 0;
+    width:10%;
+}
+
+.right-container>.stars>.opacity{
+    opacity:50%;
+}
+
+/* Bloc droit - Catégories */
+.right-container>.categories p{
+    color: white;
+    font-weight: 500;
+    font-size:0.8vw;
+}
+.right-container>.categories{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: normal;
+    gap:1vw;
+}
+
+.right-container>.categories img{
+    width:30%;
+}
+
+.strategie, .age, .time{
+    background-color: #80CE9F;
+
+    width:auto;
+    border-radius: 0.4vw;
+    gap:0.5vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:normal;
+    margin:0.7vw 0 0.5vw 0;
+}
+
+.strategie{
+    padding:0.6vw 1vw ;
+}
+
+.age{
+    padding:0.6vw 1vw ;
+}
+
+.time{
+    padding:0.6vw 1vw ;
+}
+
+
+div.right-container > div.categories > div.strategie > img, div.right-container > div.categories > div.age > img,div.right-container > div.categories > div.time > img{
+    width:15%;
+}
+
+/* Bloc droit - Ligne */
+.line {
+    border-top: 0.001vw solid #000;
+    width: 85%;
+    margin:1vw 0 1vw 0;
+
+}
+
+/* Bloc droit - Description */
+.description{
+    font-weight: 500;
+    width:80%;
+}
+
+
+/* Bloc droit - Boutons */
+.buttons{
+    font-weight:600;
+    font-size: 0.8vw;
+    margin-top:2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: normal;
+}
+
+.see-offers h3,.ludotheque h3 {
+    color: white;
+}
+.see-offers img,.ludotheque img {
+    width:15%;
+}
+.see-offers,.ludotheque {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:0.5vw;
+
+    border-radius: 20vw;
+    height:3vw;
+    margin:0.8vw 0 0 0;
+
+}
+
+.see-offers{
+    padding:0 0.6vw;
+    background-color: #FEAA28;
+}
+.ludotheque{
+    padding:0 0.6vw 0 0.2vw;
+    background-color:#000000;
+}
+
+.see-offers:hover,.ludotheque:hover {
+    cursor:pointer;
+    opacity: 80%;
+
+}

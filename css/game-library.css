@@ -1,0 +1,231 @@
+/*!*underline NAV*!*/
+
+/*.nav_up_container > div:nth-child(3)::after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    bottom: -1.4vw;*/
+/*    width: 2.5vw;*/
+/*    left: 75%;*/
+/*    height: 0.4vw;*/
+/*    background: var(--first-toned-color);*/
+/*    border-radius: 5em;*/
+/*}*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    margin-bottom: 5vw;
+    width: 100%;
+
+}
+
+.account_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw 6vw;
+    background-color: var(--first-color);
+    border-radius: 0.5vw;
+}
+
+main > .left_part, main > .right_part {
+    width: 50%;
+}
+
+/*LEFT PART*/
+
+.account_container > .left_part {
+    gap: 2vw;
+}
+
+main > div > div.left_part.d_flex_row > svg {
+    width: 10vw;
+    background-color: white;
+    border-radius: 50%;
+}
+
+main > div > div.left_part.d_flex_row > svg > g {
+    transform: translateY(18vw);
+}
+
+main > div > div.left_part.d_flex_row > div > h3 {
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 3vw;
+}
+
+main > div.account_container.d_shadow > div.left_part.d_flex_row > div > p {
+    font-size: 1.2vw;
+}
+
+.btn_disconnected {
+    padding: 1vw 2vw;
+    gap: 1vw;
+    border-radius: 0.5vw;
+    background-color: var(--first-color-dark);
+    cursor: pointer;
+}
+
+.btn_disconnected > svg {
+    width: 2vw;
+}
+
+.btn_disconnected > p {
+    color: white;
+}
+
+/*INFO ACCOUNT*/
+
+.info_account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info_account > div {
+    width: 23%;
+    gap: 1.5vw;
+    padding: 1vw 1vw;
+    border-radius: 0.5vw;
+}
+
+.info_account > div:nth-child(1) {
+    background-color: var(--first-toned-color);
+    box-shadow: 4px 4px 25px 1px rgba(254, 170, 54, 0.5);
+
+}
+
+.info_account > div:nth-child(2) {
+    background-color: var(--first-color-dark);
+    box-shadow: 4px 4px 25px 1px rgba(14, 24, 36, 0.5);
+}
+
+.info_account > div:nth-child(3) {
+    background-color: var(--second-toned-color);
+    box-shadow: 4px 4px 25px 1px rgba(93, 193, 133, 0.5);
+}
+
+.info_account > div > svg {
+    width: 4vw;
+    height: 4vw;
+    padding: 0.5vw;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 0.5vw;
+}
+
+.info_account > div > div > p {
+    color: white;
+}
+
+.info_account > div > div > p:nth-child(1) {
+    font-family: "Barlow SemiBold", sans-serif;
+    font-size: 1.7vw;
+}
+
+
+/*TOY LIBRARY LIST */
+
+.items_container {
+    position: relative;
+    margin-top: 3vw;
+    gap: 5vw;
+}
+
+.toy_library > div > div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2vw 4vw;
+    gap: 3vw;
+    background-color: var(--first-color);
+    border-radius: 0.5vw;
+}
+
+.toy_library > div > div > .left_part {
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: white;
+    width: 15%;
+    border-radius: 0.5vw;
+}
+
+body > div.app > div > div > div:nth-child(1) > div.left_part {
+    background-image: url("../img/games/Edamane.jpg");
+}
+
+body > div.app > div > div > div:nth-child(2) > div.left_part {
+    background-image: url("../img/games/Greenville.jpg");
+}
+
+body > div.app > div > div > div:nth-child(3) > div.left_part {
+    background-image: url("../img/games/Minivilles.jpg");
+}
+
+body > div.app > div > div > div {
+    position: relative;
+}
+
+.toy_library > div > div > .right_part {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 45%;
+    gap: 1vw;
+}
+
+.toy_library > div > div > div.right_part > div:nth-child(1) > p:nth-child(1) {
+    font-size: 1.5vw;
+}
+
+.toy_library > div > div > div.right_part > div:nth-child(1) > p:nth-child(2) {
+    font-family: "Barlow Light",sans-serif;
+}
+
+.toy_library > div > div > div.right_part > div:nth-child(2) {
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.right_part > div.d_flex_row > span {
+    width: 2vw;
+}
+
+
+.toy_library > div > div > div.right_part > div:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.toy_library > div > div > div.right_part > div:nth-child(3) > div {
+    padding: 1vw 1vw;
+    gap: 1vw;
+    border-radius: 0.5vw;
+    background-color: var(--first-color-dark);
+}
+
+.toy_library > div > div > div.right_part > div:nth-child(3) > div > svg {
+    width: 1.2vw;
+    height: 1.2vw;
+}
+
+.toy_library > div > div > div.right_part > div:nth-child(3) > div > p {
+    color: white;
+}
+
+/*LOGO DELETE*/
+
+.logo_delete {
+    position: absolute;
+    top: 75%;
+    left: 93%;
+    width: 1.5vw;
+    height: 1.5vw;
+}

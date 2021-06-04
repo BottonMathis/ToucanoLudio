@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - TOUCANO LUDIO</title>
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/form-layout.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- ===== AOS librabry ===== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+
+<!--===== HEADER =====-->
+<header class="header">
+    <nav class="nav">
+        <div>
+            <a href="index.html" ><img src="img/logos/normal/logo_color.svg" alt="logo TOUCANO LUDIO" class="nav_logo" style="width: 130px;"></a>
+        </div>
+
+        <div class="nav_menu" id="nav-menu">
+
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#form_inscription_overlay" class="nav_link active">INSCRIPTION</a></li>
+                <li class="nav_item"><a href="#form_connexion_overlay" class="nav_link">CONNEXION</a></li>
+            </ul>
+        </div>
+    </nav>
+
+</header>
+
+<div class="filler"></div>
+
+<!--===== HOME =====-->
+
+<main class="l-main">
+
+    <section class="home" id="home">
+
+        <div class="set_of_leaves_container">
+            <img src="img/decorations/set_of_leaves.svg" alt="set_of_leaves" class="set_of_leaves">
+        </div>
+
+        <div class="leaves_02_01_container">
+            <img src="img/decorations/leave_02.svg" alt="leaves" class="leaves_02_01">
+        </div>
+
+        <div class="leaves_01_01_container">
+            <img src="img/decorations/leave_01.svg" alt="leaves" class="leaves_01_01">
+        </div>
+
+        <div class="shadow_container">
+            <img src="img/decorations/shadow.png" alt="shadow" class="shadow">
+        </div>
+
+
+        <div class="home_container">
+            <div class="home_data">
+                <h1 class="home_title">On joue mais chacun <br> ses goûts !</h1>
+                <p class="home_description">Profitez d’une multitude de jeux de société selon vos préférences <br>
+                    et vos envie, n’attendez plus et abonnez vous à notre service premium !</p>
+
+
+                    <button type="button" class="home_btn" id="open" onclick="window.location.href='#form_inscription_overlay';" style="cursor: pointer" >
+                        <img src="img/logos/pictograms/logo_flag.svg" class="home_btn_img" alt="logo start" style="width: 30px;">
+                        <a class="home_btn_data">COMMENCER</a>
+                    </button>
+
+
+            </div>
+
+
+            <img src="img/pictures/board_games_directional_blur.png" alt="board games image" class="home_img">
+        </div>
+    </section>
+</main>
+
+
+
+<!--===== ARTCILE 1 =====-->
+<article class="article_1">
+    <div class="bg_wave_01_container">
+        <img src="img/decorations/bg_wave_01.svg" class="bg_wave_01" alt="wave bg">
+    </div>
+
+    <div class="leaves_01_02_container">
+        <img src="img/decorations/leave_01.svg" alt="leaves" class="leaves_01_02">
+    </div>
+
+    <div class="leaves_02_02_container">
+        <img src="img/decorations/leave_02.svg" alt="leaves" class="leaves_02_02">
+    </div>
+
+    <div class="pawn_red_container" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-offset="200">
+        <img src="img/decorations/pawn_red.png" alt="pawn red" class="pawn_red">
+    </div>
+
+    <div class="pawn_yellow_container" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-offset="200">
+        <img src="img/decorations/pawn_yellow.png" alt="pawn yellow" class="pawn_yellow">
+    </div>
+
+
+    <div class="article_1_container">
+            <div class="article_1_data">
+                <h4 class="article_1_title">NOS OFFRES</h4>
+                <h2 class="article_1_description">Nous parlons à vous, amateurs de jeux de société et <br> vous guidons dans vos expériences de jeux.</h2>
+            </div>
+        <div class="cards" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out">
+            <div class="card_1">
+                <img src="img/logos/pictograms/logo_discoveries.svg" alt="logo discoveries" style="width: 80px;">
+                <div class="card_1_data">
+                    <h4 class="card_1_title"><b>Découvertes</b></h4>
+                    <p class="card_1_description">Découvrez de nouveaux jeux de société en fonctions de vos goûts qui animeront vos soirées.</p>
+                </div>
+            </div>
+            <div class="card_2">
+                <img src="img/logos/pictograms/logo_toy_library.svg" alt="logo toy library" style="width: 80px;">
+                <div class="card_2_data">
+                    <h4 class="card_2_title"><b>Ludothèque</b></h4>
+                    <p class="card_2_description">Construisez votre ludothèque personnalisée en y ajoutant vos jeux favoris.</p>
+                </div>
+            </div>
+            <div class="card_3">
+                <img src="img/logos/pictograms/logo_recommendations.svg" alt="logo recommendations" style="width: 80px;">
+                <div class="card_3_data">
+                    <h4 class="card_3_title"><b>Recommandations</b></h4>
+                    <p class="card_3_description">Restez informé sur l'actualité liée aux jeux de société et ne ratez pas aucun.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</article>
+
+
+
+<!--===== ARTCILE 2 =====-->
+<article class="article_2">
+
+    <div class="bg_wave_02_container">
+        <img src="img/decorations/bg_wave_02.svg" class="bg_wave_02" alt="wave bg">
+    </div>
+
+    <div class="bg_wave_03_container">
+        <img src="img/decorations/bg_wave_03.svg" class="bg_wave_03" alt="wave bg">
+    </div>
+
+    <div class="declinaison_white_container">
+        <img src="img/logos/declination/declination_white.svg" alt="logo declinaison white" class="logo_declinaison_white">
+    </div>
+
+    <div class="article_2_container">
+        <div class="article_2_list" data-aos="fade-up-right">
+
+            <div class="article_2_item_1" data-aos="fade-up-right" data-aos-delay="0" data-aos-duration="600" data-aos-easing="ease-in-out" style="backdrop-filter: blur(5px);">
+                <img src="img/logos/pictograms/logo_innovative.svg" alt="logo innovative">
+                <div class="article_2_item_1_data">
+                    <h4 class="article_2_item_1_title"><b>INNOVANT</b></h4>
+                    <p class="article_2_item_1_descritpion">Le 1er site à vous proposer des jeux de société en fonction de vos goûts.</p>
+                </div>
+            </div>
+
+            <div class="article_2_item_2" data-aos="fade-up-right" data-aos-delay="30" data-aos-duration="600" data-aos-easing="ease-in-out" style="backdrop-filter: blur(5px);">
+                <img src="img/logos/pictograms/logo_security.svg" alt="logo security">
+                <div class="article_2_item_2_data">
+                    <h4 class="article_2_item_2_title"><b>SÉCURISÉ</b></h4>
+                    <p class="article_2_item_2_descritpion">TOUCANO LUDIO assure des payements sécurisés et ne partage pas vos données.</p>
+                </div>
+            </div>
+
+            <div class="article_2_item_3" data-aos="fade-up-right" data-aos-delay="60" data-aos-duration="600" data-aos-easing="ease-in-out" style="backdrop-filter: blur(5px);">
+                <img src="img/logos/pictograms/logo_friendly.svg" alt="logo friendly">
+                <div class="article_2_item_3_data">
+                    <h4 class="article_2_item_3_title"><b>CONVIVIAL</b></h4>
+                    <p class="article_2_item_3_descritpion">Rejoignez une communauté de passionnés prête à vous conseiller.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="article_2_data">
+            <img src="img/logos/declination/declination_blue.svg" alt="logo declination blue" style="width: 100px;">
+            <h2 class="article_2_title">Pourquoi choisir<br>TOUCANO LUDIO ?</h2>
+            <p class="article_2_description">Nous mettons en avant les jeux <span style="color: white">tendances</span> et les modes qui submergent.<br><br>
+                Nous sommes une plateforme de <span style="color: white">suggestion</span> de jeux de société et <span style="color: white">achat</span> de ceux-ci.</p>
+            <img src="img/pictures/img_article_2.png" alt="image article 2" style="width: 100%;">
+
+
+        </div>
+    </div>
+
+</article>
+
+
+
+<!--===== ARTICLE 3 =====-->
+
+
+    <article class="article_3">
+
+        <div class="bg_wave_04_container">
+            <img src="img/decorations/bg_wave_04.svg" class="bg_wave_04" alt="wave bg">
+        </div>
+
+        <div class="bg_wave_05_container">
+            <img src="img/decorations/bg_wave_05.svg" class="bg_wave_05" alt="wave bg">
+        </div>
+
+        <div class="article_3_container">
+            <div class="article_3_data">
+                <h4 class="article_3_title">VOTRE EXPÉRIENCE</h4>
+                <h2 class="article_3_description">Qu'attendez-vous</h2>
+            </div>
+
+            <div class="article_3_list">
+
+                <div class="article_3_item_1">
+                    <div class="article_3_item_1_shape" data-aos="flip-up" data-aos-easing="ease-out" data-aos-duration="500">
+                        <img src="img/logos/pictograms/stain.svg" alt="tache">
+                        <div class="article_3_item_1_img">
+                            <img src="img/logos/pictograms/logo_preferences.svg" alt="logo preferences" style="width: 140px">
+                        </div>
+                    </div>
+                    <div class="article_3_item_1_data" data-aos="flip-up" data-aos-easing="ease-out" data-aos-duration="200" data-aos-offset="-50">
+                        <p class="article_3_item_1_descritpion"><span style="color: var(--first-toned-color)">Créez</span> vous un compte et définissez vos <span style="color: var(--first-toned-color)">préférences</span> !</p>
+                    </div>
+                </div>
+
+                <div class="article_3_item_2" >
+                    <div class="article_3_item_2_shape" data-aos="flip-up" data-aos-easing="ease-out" data-aos-duration="500" data-aos-delay="200">
+                        <img src="img/logos/pictograms/stain.svg" alt="tache">
+                        <div class="article_3_item_2_img">
+                            <img src="img/logos/pictograms/logo_suggestions.svg" alt="logo suggestions" style="width: 110px">
+                        </div>
+                    </div>
+                    <div class="article_3_item_2_data" data-aos="flip-up" data-aos-easing="ease-out" data-aos-duration="200" data-aos-offset="-50" data-aos-delay="200">
+                        <p class="article_3_item_2_descritpion">Laissez-vous guider par nos <span style="color: var(--first-toned-color)">suggestions</span> et découvrez les nouveaux jeux du moment !</p>
+                    </div>
+                </div>
+
+                <div class="article_3_item_3" >
+                    <div class="article_3_item_3_shape" data-aos="flip-up" data-aos-easing="ease-out" data-aos-duration="500" data-aos-delay="400">
+                        <img src="img/logos/pictograms/stain.svg" alt="tache">
+                        <div class="article_3_item_3_img">
+                            <img src="img/logos/pictograms/logo_subscription.svg" alt="logo subscription" style="width: 110px">
+                        </div>
+                    </div>
+                    <div class="article_3_item_3_data" style="text-align:center" data-aos="flip-up" data-aos-easing="ease-out" data-aos-duration="200" data-aos-offset="-50" data-aos-delay="400">
+                        <p class="article_3_item_3_descritpion">Faites le choix d’<span style="color: var(--first-toned-color)">acheter</span> directement le jeu ou alors de souscrire à notre offre d’<span style="color: var(--first-toned-color)">abonnement</span> !</p>
+                    </div>
+                </div>
+
+                <img class="pointilles" alt="pointillés" src="img/decorations/dotted_lines.svg">
+
+            </div>
+
+            <button type="button" class="article_3_btn_start" onclick="window.location.href='#form_inscription_overlay';" style="cursor: pointer">
+                <img src="img/logos/pictograms/logo_flag.svg" class="article_3_btn_start_img" alt="logo start" style="width: 30px;">
+                <a class="article_3_btn_start_data">COMMENCER</a>
+            </button>
+            <button type="button" class="article_3_btn_team">
+                <a href="team-presentation.html" class="article_3_btn_team_data">Qui-sommes nous?</a>
+            </button>
+
+        </div>
+
+    </article>
+
+
+
+
+<!--===== FORMS =====-->
+
+<!--===== CONNEXION =====-->
+
+<div class="form_connexion_overlay" id="form_connexion_overlay">
+
+    <div class="form_connexion_content" >
+        <a href="#article_3_btn_start" class="form_connexion_close"><img src="img/logos/pictograms/logo_cross.svg"  alt="logo cross" style="width: 22px"></a>
+
+        <div class="form_container_item_1" id="popup_box">
+            <div class="form_container_data">
+                <h2 class="form_title">Bonjour</h2>
+                <p class="form_subtitle">Connectez-vous à votre compte</p>
+            </div><div class="form_container_inscription">
+            <p>Vous n’avez pas de compte ? <a href="#form_inscription_overlay" style="color: var(--second-toned-color)">Créez le</a> </p>
+            <div class="container_email">
+                <img src="img/logos/pictograms/logo_email.svg" class="logo_email" style="width: 20px" alt="logo email">
+                <input type="text" placeholder="E-mail" class="placeholder">
+            </div>
+            <div class="container_password">
+                <img src="img/logos/pictograms/logo_password.svg" class="logo_security" style="width: 19px" alt="logo security">
+                <input type="password" placeholder="Mot de passe" class="placeholder">
+                <img src="img/logos/pictograms/logo_visible.svg" class="logo_visible" style="width: 20px" alt="logo visible">
+            </div>
+            <div class="form_container_informations">
+                <input type="checkbox" id="terms">
+                <p>Se souvenir de moi</p>
+                <p>Mot de passe oublié ?</p>
+            </div>
+            <div class="btn_connexion">
+                <a href="">CONNEXION</a>
+            </div>
+            <p class="other_choice_connexion">Ou</p>
+            <div class="btn_facebook">
+                <img src="img/logos/networks/logo_facebook_2.svg" alt="logo Facebook" style="width: 25px">
+                <a href="">Se connecter avec Facebook</a>
+            </div>
+            <div class="btn_google">
+                <img src="img/logos/networks/logo_google.svg" alt="logo Google" style="width: 25px">
+                <a href="">Se connecter avec Google</a>
+            </div>
+            <label for="terms"></label><span>Protégé par reCAPTCHA et soumis aux <a href="https://policies.google.com/privacy?hl=fr-CA">Politique de confidentialité</a> et <a href="https://policies.google.com/?hl=fr">Conditions d’utilisation</a>  de Google.</span>
+        </div>
+        </div>
+
+        <div class="form_container_item_2">
+            <h2 class="form_item_2_title">Content de <br> vous revoir !</h2>
+            <p class="form_item_2_subtitle">Venez découvrir les nouveaux jeux <br> du moment !</p>
+        </div>
+
+    </div>
+</div>
+
+
+<!--===== CONNEXION =====-->
+
+
+<div class="form_inscription_overlay" id="form_inscription_overlay">
+
+    <div class="form_inscription_content" >
+        <a href="#article_3_btn_start" class="form_connexion_close"><img src="img/logos/pictograms/logo_cross.svg"  alt="logo cross" style="width: 22px"></a>
+
+        <div class="form_container_item_1">
+            <div class="form_container_data">
+                <h2 class="form_title">Salut l’ami !</h2>
+            </div><div class="form_container_inscription">
+            <p>Vous avez déjà un compte ?<a href="#form_connexion_overlay" style="color: var(--second-toned-color)"> Connectez-vous</a> </p>
+            <div class="container_name">
+                <img src="img/logos/pictograms/logo_name.svg" class="logo_name" style="width: 20px" alt="logo profil">
+                <input type="text" placeholder="Nom" class="placeholder">
+            </div>
+            <div class="container_email">
+                <img src="img/logos/pictograms/logo_email.svg" class="logo_email" style="width: 20px" alt="logo email">
+                <input type="text" placeholder="E-mail" class="placeholder">
+            </div>
+            <div class="container_password">
+                <img src="img/logos/pictograms/logo_password.svg" class="logo_security" style="width: 19px">
+                <input type="password" placeholder="Mot de passe" class="placeholder">
+                <img src="img/logos/pictograms/logo_visible.svg" class="logo_visible" style="width: 20px" alt="logo visible">
+            </div>
+            <div class="form_container_informations">
+                <input type="checkbox" >
+                <p>Se souvenir de moi</p>
+            </div>
+            <div class="btn_connexion">
+                <a href="">S'INSCRIRE</a>
+            </div>
+            <p class="other_choice_inscription">Ou</p>
+            <div class="btn_facebook">
+                <img src="img/logos/networks/logo_facebook_2.svg" alt="logo Facebook" style="width: 25px">
+                <a href="index.html">Se connecter avec Facebook</a>
+            </div>
+            <div class="btn_google">
+                <img src="img/logos/networks/logo_google.svg" alt="logo Google" style="width: 25px">
+                <a href="index.html">Se connecter avec Google</a>
+            </div>
+            <label for="terms"></label><span>Protégé par reCAPTCHA et soumis aux <a href="https://policies.google.com/privacy?hl=fr-CA">Politique de confidentialité</a> et <a href="https://policies.google.com/?hl=fr">Conditions d’utilisation</a>  de Google.</span>
+        </div>
+        </div>
+
+        <div class="form_container_item_2">
+            <h2 class="form_item_2_title">Content de <br> vous voir !</h2>
+            <p class="form_item_2_subtitle">Venez découvrir les nouveaux jeux <br> du moment !</p>
+        </div>
+
+    </div>
+</div>
+
+
+
+<!--===== FOOTER =====-->
+
+<footer>
+    <div class="footer_container">
+        <div class="logo_footer">
+            <img src="img/logos/normal/logo_blue.svg" alt="logo TOUCANO LUDIO blue">
+        </div>
+        <p class="mentions_legales">© TOUCANO LUDIO - 2021 </p>
+    </div>
+</footer>
+
+
+
+<!--===== AOS =====-->
+
+<script>
+    AOS.init();
+</script>
+
+
+
+</body>
+</html>

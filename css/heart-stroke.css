@@ -1,0 +1,225 @@
+/*underline NAV*/
+.nav_down_container > div.nav_down_container_right > div:nth-child(1) > a > p::after {
+    content: '';
+    position: absolute;
+    bottom: -1.1vw;
+    left: 0;
+    right: 0;
+    height: 0.4vw;
+    background: var(--first-toned-color);
+    border-radius: 5em;
+}
+
+/*----------------------- Titre Nouveauté -----------------------*/
+.title{
+    font-size: 4vw;
+    letter-spacing: 0.2vw;
+    margin-top:6vw;
+    font-family: Londrina Solid, sans-serif ;
+}
+
+/*---------------------- Gros Bloc (Bloc haut + Bloc gauche + Bloc droit) ----------------------*/
+.container{
+    justify-content: space-between;
+    /*background-color:indianred;*/
+    height: auto;
+    margin-top:4vw;
+    position:relative;
+    z-index: -1;
+}
+
+/*---------------------- Bloc haut (image)----------------------*/
+.mid-container{
+    position:absolute;
+    top:0;
+    /*background-color:navajowhite;*/
+    height:36vw;
+
+    z-index: 0;
+    width:100%;
+
+    background-image: url("../img/heart-stroke/baneer.jpg");
+    background-repeat: no-repeat;
+    background-size: 108%;
+    border-radius:1.4vw;
+    background-position: center;
+
+    transition: ease-in-out 0.4s;
+    filter:alpha(opacity=100);
+    opacity:1;
+}
+
+.mid-container:hover {
+    transition: ease-in-out 0.4s;
+    background-size: 115%;
+    filter:alpha(opacity=80);
+    opacity:0.8;
+}
+
+
+/*----------------------- Bloc gauche -----------------------*/
+.left-container{
+    height:55%;
+    width:65%;
+    justify-content: space-between;
+    margin-left:10vw;
+    margin-right: 8vw;
+    margin-top:25vw;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+}
+
+.content{
+    background-color: white;
+    padding:5vw;
+    border-radius:2vw;
+}
+
+.content h3{
+    color:#5DC185;
+    font-weight: 500;
+    margin-bottom:1vw;
+}
+
+.content h1{
+    margin-bottom:1vw;
+}
+
+.description1 p:nth-child(1){
+    font-size: .8vw;
+    margin-bottom:2vw;
+}
+
+.lines{
+    margin:2vw 0;
+}
+
+.lines div{
+    border-top: 0.001vw solid #5DC185;
+    width: 45%;
+    margin: 1vw 0;
+}
+
+.lines h2{
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.8vw;
+    line-height: 2vw;
+    margin: 1vw 0;
+    width:90%;
+}
+
+/* Réseaux sociaux*/
+.icons{
+    display: flex;
+    gap:1vw;
+
+}
+
+.icons img{
+    width:4%;
+    margin-top:1.3vw;
+    margin-left: 1vw;
+
+}
+.icons img:nth-child(1){
+    width:2%;
+}
+
+
+
+/*----------------------- Bloc droite -----------------------*/
+.right-container{
+    /*background-color:yellowgreen;*/
+    height:100%;
+    width:33%;
+    z-index: 1;
+}
+
+/* Bouton */
+.see-product h3 {
+    color: white;
+}
+.see-product img {
+    width:12%;
+}
+.see-product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:0.5vw;
+
+    border-radius: 20vw;
+    height:3vw;
+    padding:0 0.6vw;
+    background-color: #5DC185;
+
+    font-weight:600;
+    font-size: 0.8vw;
+    margin-top:2vw;
+}
+
+.see-product:hover{
+    cursor:pointer;
+    opacity: 80%;
+
+}
+
+/* Images */
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:3vw;
+    margin-top: 15vw;
+}
+
+.images>div{
+    background-color: white;
+    width:23vw;
+    height:23vw;
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: center;
+    gap:1vw;
+    border-radius: 1vw;
+
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+
+
+}
+.images>div:nth-child(1) {
+    background-image: url("../img/heart-stroke/image1.jpg");
+}
+.images>div:nth-child(2){
+    background-image: url("../img/heart-stroke/image2.jpg");
+}
+
+/*.images>div:nth-child(1),.images>div:nth-child(2){
+    transition: ease-in-out 0.4s;
+    filter:alpha(opacity=100);
+    opacity:1;
+    background-position: center;
+    position: relative;
+
+}*/
+
+/*.images>div:nth-child(1):hover,.images>div:nth-child(2):hover {
+    filter:alpha(opacity=80);
+    opacity:0.8;
+    background-size: 85%;
+    background-position: center;
+}*/
+
+.right-container>.images img:nth-child(1),.right-container>.images img:nth-child(2){
+    background-color: white;
+}
+
+

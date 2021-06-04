@@ -1,0 +1,162 @@
+<!--WHISLIST-->
+
+<!-- ===== CSS ===== -->
+<link rel="stylesheet" href="css/wishlist.css">
+
+<div class="container">
+    <div class="d_flex_column">
+        <h1>Jeux sauvegardés</h1>
+        <p>Découvre ce que contient ta wishlist</p>
+    </div>
+    <div>
+        <h3>TOUS LES JEUX</h3>
+        <div class="d_flex_row">
+            <p>Trier par :</p>
+            <div class="filter">
+                <label class="dropdown">
+
+                    <div class="dd-button">
+                        Pertinence
+                    </div>
+
+                    <input type="checkbox" class="dd-input" id="test">
+
+                    <ul class="dd-menu">
+                        <li>Genre</li>
+                        <li>Prix</li>
+                    </ul>
+
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="toy_library">
+        <div class="items_container d_flex_column">
+            <div class="items d_shadow">
+                <div class="left_part" onclick="toPath('game1')" style="cursor: pointer">
+                </div>
+                <div class="right_part">
+                    <div>
+                        <p onclick="toPath('game1')" style="cursor: pointer">7 Wonders Duel</p>
+                        <p>Repos Production</p>
+                    </div>
+                    <div class="d_flex_row">
+                        <span class="checked"><img src="img/logos/declination/declination_orange.svg" alt=""></span>
+                        <span class="checked"><img src="img/logos/declination/declination_orange.svg" alt=""></span>
+                        <span class="checked"><img src="img/logos/declination/declination_orange.svg" alt=""></span>
+                        <span class="checked"><img src="img/logos/declination/declination_orange.svg" alt=""></span>
+                        <span class="checked"><img src="img/logos/declination/declination_orange.svg" alt=""></span>
+                    </div>
+                    <div>
+                        <div class="d_flex_row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26.07" height="37.931" viewBox="0 0 26.07 37.931">
+                                <path id="logo_strategie" d="M14.87,0C8.957,0,5.127,2.423,2.12,6.743A1.78,1.78,0,0,0,2.5,9.179L5.7,11.6a1.778,1.778,0,0,0,2.463-.307c1.856-2.325,3.232-3.663,6.131-3.663,2.279,0,5.1,1.467,5.1,3.677,0,1.671-1.379,2.529-3.63,3.79-2.624,1.471-6.1,3.3-6.1,7.883v.725a1.778,1.778,0,0,0,1.778,1.778h5.369a1.778,1.778,0,0,0,1.778-1.778v-.428c0-3.175,9.28-3.307,9.28-11.9C27.87,4.908,21.158,0,14.87,0Zm-.742,27.667A5.132,5.132,0,1,0,19.259,32.8,5.138,5.138,0,0,0,14.127,27.667Z" transform="translate(-1.8)" fill="#fff"/>
+                            </svg>
+                            <p>Stratégie</p>
+                        </div>
+                        <div class="d_flex_row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.466" height="18.467" viewBox="0 0 18.466 18.467">
+                                <path id="logo_age" d="M5.222.613A1.354,1.354,0,0,0,3.275.274,8.5,8.5,0,0,0,0,6.924H9.233ZM17.889,3.462H16.158A2.31,2.31,0,0,0,13.85,5.77V8.078H0a6.4,6.4,0,0,0,2.175,4.714,2.882,2.882,0,1,0,3.6,2.788,2.914,2.914,0,0,0-.159-.909,9.337,9.337,0,0,0,4.934,0,2.814,2.814,0,0,0-.159.909,2.885,2.885,0,1,0,3.6-2.788,6.4,6.4,0,0,0,2.175-4.714V5.77h1.731a.579.579,0,0,0,.577-.577V4.039A.579.579,0,0,0,17.889,3.462Zm-15,13.272A1.154,1.154,0,1,1,4.039,15.58,1.158,1.158,0,0,1,2.885,16.734ZM14.427,15.58a1.154,1.154,0,1,1-1.154-1.154A1.158,1.158,0,0,1,14.427,15.58Z" transform="translate(0 0.001)" fill="#eae4d8"/>
+                            </svg>
+                            <p>Dès 14 ans</p>
+                        </div>
+                        <div class="d_flex_row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.567" height="18.567" viewBox="0 0 18.567 18.567">
+                                <path id="logo_time" d="M4.488,13.128A9.1,9.1,0,0,1,5.741,8.461,9.276,9.276,0,0,1,9.13,5.073a9.266,9.266,0,0,1,8.253-.511,9.367,9.367,0,0,1,2.96,1.979,9.09,9.09,0,0,1,1.979,2.968,9.219,9.219,0,0,1-4.938,12.152,9.252,9.252,0,0,1-7.222,0,9.136,9.136,0,0,1-4.947-4.93A8.935,8.935,0,0,1,4.488,13.128Zm2.045,0a7.007,7.007,0,0,0,2.135,5.1,6.963,6.963,0,0,0,5.112,2.135,7.009,7.009,0,0,0,3.619-.973,7.314,7.314,0,0,0,2.646-2.638,7.182,7.182,0,0,0,0-7.247A7.274,7.274,0,0,0,17.4,6.854a7.219,7.219,0,0,0-7.239,0A7.424,7.424,0,0,0,7.505,9.5,6.981,6.981,0,0,0,6.533,13.128Zm6.53,0V7.637a.684.684,0,1,1,1.369,0V12.93L16.2,16.1a.669.669,0,0,1-.594,1.031.645.645,0,0,1-.6-.338l-1.814-3.215A.808.808,0,0,1,13.062,13.128Z" transform="translate(-4.488 -3.828)" fill="#fff"/>
+                            </svg>
+                            <p>90 min</p>
+                        </div>
+                    </div>
+                    <svg class="logo_heart" xmlns="http://www.w3.org/2000/svg" width="35.047" height="30.912" viewBox="0 0 35.047 30.912">
+                        <path id="logo_full_heart" d="M21.884,33.007a3.5,3.5,0,0,1-4.712-.018l-.193-.175C7.783,24.493,1.775,19.046,2,12.249A9.562,9.562,0,0,1,6.1,4.735,10.151,10.151,0,0,1,19.519,6.661,10.132,10.132,0,0,1,32.937,4.735a9.562,9.562,0,0,1,4.1,7.515c.245,6.8-5.781,12.244-14.977,20.6l-.175.158Z" transform="translate(-1.996 -2.999)"/>
+                    </svg>
+
+                </div>
+                <div>
+                    <div style="cursor: pointer" onClick="window.location='https://www.amazon.fr/Repos-Production-Wonders-Autonome-Joueurs/dp/B014DMSTXK/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=7+Wonders+Duel&qid=1622753910&sr=8-1'">
+                        <p>Voir offre</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15.718" height="27.496" viewBox="0 0 15.718 27.496">
+                            <path id="arrow_down" d="M6.942,3.045h0a1.811,1.811,0,0,1,2.566,0L21.7,15.239a1.444,1.444,0,0,1,0,2.044L9.508,29.476a1.811,1.811,0,0,1-2.566,0h0a1.811,1.811,0,0,1,0-2.566L17.584,16.268,6.928,5.612A1.825,1.825,0,0,1,6.942,3.045Z" transform="translate(-6.407 -2.513)" fill="#fff"/>
+                        </svg>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="items d_shadow">
+                <div class="left_part">
+                </div>
+                <div class="right_part">
+                    <div>
+                        <p>Texto 2.0</p>
+                        <p>Treo Games Designer</p>
+                    </div>
+                    <div class="d_flex_row">
+                        <span class="checked"><img src="img/logos/declination/declination_orange.svg" alt=""></span>
+                        <span class="checked"><img src="img/logos/declination/declination_orange.svg" alt=""></span>
+                        <span class="checked"><img src="img/logos/declination/declination_orange.svg" alt=""></span>
+                        <span class="checked"><img src="img/logos/declination/declination_orange.svg" alt=""></span>
+                        <span class="checked"><img src="img/logos/declination/declination_orange.svg" alt=""></span>
+                    </div>
+                    <div>
+                        <div class="d_flex_row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26.07" height="37.931" viewBox="0 0 26.07 37.931">
+                                <path id="logo_strategie" d="M14.87,0C8.957,0,5.127,2.423,2.12,6.743A1.78,1.78,0,0,0,2.5,9.179L5.7,11.6a1.778,1.778,0,0,0,2.463-.307c1.856-2.325,3.232-3.663,6.131-3.663,2.279,0,5.1,1.467,5.1,3.677,0,1.671-1.379,2.529-3.63,3.79-2.624,1.471-6.1,3.3-6.1,7.883v.725a1.778,1.778,0,0,0,1.778,1.778h5.369a1.778,1.778,0,0,0,1.778-1.778v-.428c0-3.175,9.28-3.307,9.28-11.9C27.87,4.908,21.158,0,14.87,0Zm-.742,27.667A5.132,5.132,0,1,0,19.259,32.8,5.138,5.138,0,0,0,14.127,27.667Z" transform="translate(-1.8)" fill="#fff"/>
+                            </svg>
+                            <p>Enquête</p>
+                        </div>
+                        <div class="d_flex_row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.466" height="18.467" viewBox="0 0 18.466 18.467">
+                                <path id="logo_age" d="M5.222.613A1.354,1.354,0,0,0,3.275.274,8.5,8.5,0,0,0,0,6.924H9.233ZM17.889,3.462H16.158A2.31,2.31,0,0,0,13.85,5.77V8.078H0a6.4,6.4,0,0,0,2.175,4.714,2.882,2.882,0,1,0,3.6,2.788,2.914,2.914,0,0,0-.159-.909,9.337,9.337,0,0,0,4.934,0,2.814,2.814,0,0,0-.159.909,2.885,2.885,0,1,0,3.6-2.788,6.4,6.4,0,0,0,2.175-4.714V5.77h1.731a.579.579,0,0,0,.577-.577V4.039A.579.579,0,0,0,17.889,3.462Zm-15,13.272A1.154,1.154,0,1,1,4.039,15.58,1.158,1.158,0,0,1,2.885,16.734ZM14.427,15.58a1.154,1.154,0,1,1-1.154-1.154A1.158,1.158,0,0,1,14.427,15.58Z" transform="translate(0 0.001)" fill="#eae4d8"/>
+                            </svg>
+                            <p>Dès 10 ans</p>
+                        </div>
+                        <div class="d_flex_row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.567" height="18.567" viewBox="0 0 18.567 18.567">
+                                <path id="logo_time" d="M4.488,13.128A9.1,9.1,0,0,1,5.741,8.461,9.276,9.276,0,0,1,9.13,5.073a9.266,9.266,0,0,1,8.253-.511,9.367,9.367,0,0,1,2.96,1.979,9.09,9.09,0,0,1,1.979,2.968,9.219,9.219,0,0,1-4.938,12.152,9.252,9.252,0,0,1-7.222,0,9.136,9.136,0,0,1-4.947-4.93A8.935,8.935,0,0,1,4.488,13.128Zm2.045,0a7.007,7.007,0,0,0,2.135,5.1,6.963,6.963,0,0,0,5.112,2.135,7.009,7.009,0,0,0,3.619-.973,7.314,7.314,0,0,0,2.646-2.638,7.182,7.182,0,0,0,0-7.247A7.274,7.274,0,0,0,17.4,6.854a7.219,7.219,0,0,0-7.239,0A7.424,7.424,0,0,0,7.505,9.5,6.981,6.981,0,0,0,6.533,13.128Zm6.53,0V7.637a.684.684,0,1,1,1.369,0V12.93L16.2,16.1a.669.669,0,0,1-.594,1.031.645.645,0,0,1-.6-.338l-1.814-3.215A.808.808,0,0,1,13.062,13.128Z" transform="translate(-4.488 -3.828)" fill="#fff"/>
+                            </svg>
+                            <p>30 min</p>
+                        </div>
+                    </div>
+                    <svg class="logo_heart" xmlns="http://www.w3.org/2000/svg" width="35.047" height="30.912" viewBox="0 0 35.047 30.912">
+                        <path id="logo_full_heart" d="M21.884,33.007a3.5,3.5,0,0,1-4.712-.018l-.193-.175C7.783,24.493,1.775,19.046,2,12.249A9.562,9.562,0,0,1,6.1,4.735,10.151,10.151,0,0,1,19.519,6.661,10.132,10.132,0,0,1,32.937,4.735a9.562,9.562,0,0,1,4.1,7.515c.245,6.8-5.781,12.244-14.977,20.6l-.175.158Z" transform="translate(-1.996 -2.999)"/>
+                    </svg>
+
+                </div>
+                <div>
+                    <div style="cursor: pointer">
+                        <p>Voir offre</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15.718" height="27.496" viewBox="0 0 15.718 27.496">
+                            <path id="arrow_down" d="M6.942,3.045h0a1.811,1.811,0,0,1,2.566,0L21.7,15.239a1.444,1.444,0,0,1,0,2.044L9.508,29.476a1.811,1.811,0,0,1-2.566,0h0a1.811,1.811,0,0,1,0-2.566L17.584,16.268,6.928,5.612A1.825,1.825,0,0,1,6.942,3.045Z" transform="translate(-6.407 -2.513)" fill="#fff"/>
+                        </svg>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ad_premium">
+    <div class="container_ad_premium">
+        <div>
+            <h5>PASSEZ EN COMPTE PREMIUM</h5>
+            <p>et recevez 1 nouveau jeu chaque mois</p>
+        </div>
+
+        <a onclick="toPath('premium')"><span>COMMENCER</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="96.568" height="96.568" viewBox="0 0 96.568 96.568">
+                <g id="logo_arrow_round" transform="translate(-1442.719 -2527)">
+                    <circle id="logo_arrow_round-2" data-name="logo_arrow_round" cx="32" cy="32" r="32" transform="translate(1472 2543)" fill="#fff"/>
+                    <g id="arrow_back_white_24dp" transform="translate(1442.719 2527)">
+                        <path id="Tracé_271" data-name="Tracé 271" d="M96.568,0H0V96.568H96.568Z" fill="none"/>
+                        <path id="Tracé_272" data-name="Tracé 272" d="M6.312,16.9H27.471L18.227,7.652a1.909,1.909,0,0,1,0-2.69,1.886,1.886,0,0,1,2.671,0L33.381,17.445a1.886,1.886,0,0,1,0,2.671L20.9,32.6a1.889,1.889,0,1,1-2.671-2.671l9.244-9.244H6.312a1.894,1.894,0,0,1,0-3.789Z" transform="translate(41.868 29.504)" fill="#feaa28"/>
+                    </g>
+                </g>
+            </svg>
+        </a>
+
+    </div>
+</div>
+

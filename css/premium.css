@@ -1,0 +1,324 @@
+/*underline NAV*/
+
+.nav_up_container > div:nth-child(1)::after {
+    content: '';
+    position: absolute;
+    width: 8vw;
+    bottom: -0.1vw;
+    left: 8%;
+    height: 0.4vw;
+    background: var(--first-toned-color);
+    border-radius: 5em;
+}
+
+/*===== DECORATIONS =====*/
+
+body {
+    background-image: url("../img/premium/bg_wave_04.svg"), url("../img/premium/bg_wave_03.svg"), url("../img/premium/bg_wave_02.svg"), url("../img/premium/bg_wave_01.svg");
+    background-repeat: no-repeat;
+    background-size: 114%, 114%, 115%, 114%;
+    background-position: 53% 82%, 47% 80%, 67% 5%, 50% -11%;
+}
+
+.intro {
+    gap: 0.5vw;
+}
+
+.intro > svg {
+    width: 5vw;
+    height: auto;
+}
+
+.intro > div {
+    gap: 1vw;
+    width: 40%;
+    text-align: center;
+}
+
+.intro > div > h4 {
+    font-family: "Barlow SemiBold", sans-serif;
+    font-size: 2.5vw;
+}
+
+/*===== MODULES =====*/
+
+.modules {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 15vw;
+    height: 38vw;
+}
+
+.modules_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 19vw;
+}
+
+.modules_items:nth-child(2) {
+    transform: translateY(20vw);
+}
+
+.modules_items_shape {
+    position: relative;
+}
+
+.modules_items_shape > img:nth-child(1) {
+    width: 15vw;
+}
+
+.modules_items:nth-child(1) >.modules_items_shape > img:nth-child(2) {
+    position: absolute;
+    top: 55%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    width: 11vw;
+}
+
+.modules_items:nth-child(2) >.modules_items_shape > img:nth-child(2) {
+    position: absolute;
+    top: 55%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    width: 11vw;
+}
+
+.modules_items:nth-child(3) >.modules_items_shape > img:nth-child(2) {
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    width: 10vw;
+}
+
+.modules > div > p {
+    width: 110%;
+}
+
+.modules > div > h4 {
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 1.4vw;
+    color: var(--second-toned-color);
+    text-transform: uppercase;
+    margin-top: 1vw;
+}
+
+.modules > img {
+    position: absolute;
+    top: 15%;
+    left: 11%;
+    width: 67vw;
+    z-index: -1;
+}
+
+.modules > div > p {
+    font-family: "Barlow", sans-serif;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-top: 1.5vw;
+}
+
+/*===== BUTTON DISCOVER =====*/
+
+.btn_discover_container {
+    width: 100%;
+}
+
+.btn_discover {
+    margin-top: 10vw;
+    background-color: var(--first-toned-color);
+    padding: 0.6vw 1.2vw;
+    border-radius: 5em;
+    gap: 1vw;
+}
+
+.btn_discover > p {
+    font-family: "Barlow SemiBold",sans-serif;
+    font-size: 1.2vw;
+    color: white;
+}
+
+.btn_discover_container > div > svg {
+    width: 3vw;
+}
+
+/*===== CARDS =====*/
+
+.choise_box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+}
+
+.choise_box > div:nth-child(1) {
+    margin-bottom: 4vw;
+}
+.cards_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cards_items {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    height: 17vw;
+    padding: 1.5vw;
+    text-align: center;
+    border-radius: 1vw;
+}
+
+.cards_items:nth-child(1) {
+    background: linear-gradient(0turn, var(--second-toned-color), 1%, white);
+}
+
+.cards_items:nth-child(2) {
+    background: linear-gradient(0turn, #115FCB, 1%, white);
+}
+
+.cards_items:nth-child(3) {
+    background: linear-gradient(0turn, #FEAA28, 1%, white);
+}
+
+
+.cards_items > div:nth-child(1) > h4 {
+    font-family: "Barlow SemiBold", sans-serif;
+    font-size: 1.5vw;
+}
+
+.cards_items:nth-child(1)> div:nth-child(1) > h4 {
+    color: var(--second-toned-color);
+}
+
+.cards_items:nth-child(2)> div:nth-child(1) > h4 {
+    color: #115FCB;
+}
+
+.cards_items:nth-child(3)> div:nth-child(1) > h4 {
+    color: #FEAA28;
+}
+
+.cards_items > div:nth-child(2) > p {
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 1.8vw;
+}
+
+.cards_items > div:nth-child(2) > div {
+    color: white;
+    padding: 0.6vw 1.2vw;
+    border-radius: 0.3vw;
+    font-family: "Barlow SemiBold", sans-serif;
+}
+
+.cards_items:nth-child(1) > div:nth-child(2) > div {
+    background-color: var(--second-toned-color);
+}
+
+.cards_items:nth-child(2) > div:nth-child(2) > div {
+    background-color: #115FCB;
+}
+
+.cards_items:nth-child(3) > div:nth-child(2) > div {
+    background-color: #FEAA28;
+}
+
+
+.cards_items > .d_flex_column:nth-child(1) {
+    gap: 0.2vw;
+}
+
+.cards_items > .d_flex_column:nth-child(2) {
+    gap: 1vw;
+}
+
+.cards_items::before {
+    position: absolute;
+    content: "";
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 7vw;
+    height: 21vw;
+    top: -13%;
+    left: -12%;
+    pointer-events: none;
+}
+
+.cards_items:nth-child(1)::before {
+    background-image: url(../img/logos/declination/declination_green.svg);
+}
+
+.cards_items:nth-child(2)::before {
+    background-image: url(../img/logos/declination/declination_blue_02.svg);
+}
+
+.cards_items:nth-child(3)::before {
+    background-image: url(../img/logos/declination/declination_orange.svg);
+}
+
+
+/*===== LAST PART =====*/
+
+.benefit {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--first-color);
+    margin: 10vw -8vw 20vw -8vw;
+    padding: 6vw 8vw 2vw 8vw;
+}
+
+.benefit > div {
+    width: 100%;
+}
+
+/* left */
+
+.left_part {
+    gap: 4vw;
+    align-items: baseline;
+}
+
+.left_part > div > img {
+    width: 6vw;
+}
+
+.left_part > div {
+    gap: 2vw;
+}
+
+.left_part > div > div > p:nth-child(1) {
+    font-family: "Barlow SemiBold", sans-serif;
+    font-size: 1.2vw;
+}
+
+/* right */
+
+.right_part > div {
+    background-color: var(--first-toned-color);
+    padding: 0.3vw 0.8vw;
+    border-radius: 5em;
+    gap: 1vw;
+    height: auto;
+    float: right;
+}
+
+.right_part > div > p {
+    font-family: "Barlow SemiBold",sans-serif;
+    font-size: 1.2vw;
+    color: white;
+}
+
+.right_part > div > svg {
+    width: 3vw;
+    transform: rotate(180deg);
+}

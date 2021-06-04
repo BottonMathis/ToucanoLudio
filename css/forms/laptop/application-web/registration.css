@@ -1,0 +1,76 @@
+body {
+    background-image: url("../../../../img/pictures/background_form_connexion_laptop.jpg");
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+header, footer {
+    display: none;
+}
+
+.app {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container_form {
+    height: 41vw;
+    transform: translateX(20vw);
+    border-radius: 1vw;
+}
+
+.container_left_part > div:nth-child(5) {
+    margin: 1vw 0;
+}
+
+.container_networks {
+    margin: 1.5vw 0;
+}
+
+.container_networks > a {
+    height: 3vw;
+}
+
+.app > div.container_form > a {
+    position: absolute;
+    top: 0%;
+    left: -60%;
+}
+
+.app > div.container_form > a > svg {
+    width: 3vw;
+}
+
+.app > div > div:nth-child(4) {
+    position: absolute;
+    top: 30%;
+    left: -60%;
+    height: auto;
+    gap: 1vw;
+}
+
+.app > div > div:nth-child(4) > div:nth-child(1) > svg {
+    width: 8vw;
+    height: auto;
+}
+
+.app > div > div:nth-child(4) > div:nth-child(2) > p {
+    font-size: 1.2vw;
+    color: white;
+}
+
+
+
+
+
+
+
+

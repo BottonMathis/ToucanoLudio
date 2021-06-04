@@ -1,0 +1,208 @@
+/*RESPONSIVE */
+@media (max-width: 850px) {
+    body > div.app > div > div.content_container_part_1 > div:nth-child(1) > h1 {
+        font-size: 25px;
+    }
+    body > div.app > div > div.content_container_part_1 > div:nth-child(1) > h4 {
+        font-size: 18px;
+    }
+
+    body > div.app > div > div.content_container_part_1 > div:nth-child(2) > p {
+        font-size: 14px;
+    }
+
+    body > div.app > div > div.content_container_part_1 {
+        width: 100%;
+        margin-top: 5vw;
+    }
+    .content_container {
+        margin-top: 10vw;
+    }
+
+    body > div.app > div > div.content_container_part_2 > h4 {
+        font-size: 18px;
+    }
+
+    body > div.app > div > div.content_container_part_2 > div {
+        flex-direction: column;
+        gap: 20vw;
+    }
+
+    body > div.app > div > div.content_container_part_2 > div > div {
+        height: 50vw;
+        width: 50%;
+    }
+
+    body > div.app > div > div.content_container_part_2 > div > div > p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    body > div.app > div > div.content_container_part_2 > div > div > p:nth-child(3) {
+        font-size: 12px;
+    }
+
+    body > div.app > div > div.content_container_part_2 > div > div > div:nth-child(1) > img {
+        width: 28vw;
+    }
+
+    body > div.app > div > div.content_container_part_2 > div > div > div:nth-child(4) > a:nth-child(1) > img {
+        width: 3vw;
+    }
+
+    body > div.app > div > div.content_container_part_2 > div > div > div:nth-child(4) > a:nth-child(2) > img {
+        width: 5vw;
+    }
+
+    body > div.app > div > div.content_container_part_2 > div > div > div:nth-child(4) > a:nth-child(3) > img {
+        width: 5vw;
+    }
+
+    .cards_items > div:nth-child(4) {
+        width: auto;
+        gap: 3vw;
+    }
+}
+
+
+/*===== DECORATIONS =====*/
+
+body {
+    background-image: url("../img/decorations/set_of_leaves.svg");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: 100% 0;
+}
+
+/*===== PART 1 =====*/
+
+.content_container_part_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 70%;
+    gap: 2vw 4vw;
+}
+
+.content_container_part_1 > div:nth-child(1) > a > img {
+    width: 3vw;
+}
+
+.content_container_part_1 > div:nth-child(1) > h1 {
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 4vw;
+    color: var(--first-color-dark);
+}
+
+.content_container_part_1 > div:nth-child(1) > h4 {
+    font-family: "Londrina Solid Light", sans-serif;
+    font-size: 2vw;
+    color: var(--first-color-dark);
+    margin-top: 0.5vw;
+}
+
+
+.content_container_part_1 > div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 3.5vw;
+}
+
+.content_container_part_1 > div:nth-child(3) p {
+    font-family: "Barlow", sans-serif;
+    font-size: 1.3vw;
+    color: var(--first-color-dark);
+}
+
+/*===== PART 2 =====*/
+
+.content_container_part_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12vw;
+}
+
+.content_container_part_2 > h4 {
+    float: left;
+    font-family: "Londrina Solid Light", sans-serif;
+    font-size: 2vw;
+    color: var(--first-color-dark);
+    margin-top: 4vw;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cards_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vw;
+    width: 20vw;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.cards_items > div:nth-child(1) {
+    transform: translateY(-9vw);
+    overflow: hidden;
+    border: 0.5vw solid white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border-radius: 50%;
+}
+
+.cards_items > div:nth-child(1) > img {
+    width: 12vw;
+}
+
+.cards_items > div:nth-child(4) > a:nth-child(1) > img {
+    width: 1.2vw;
+}
+
+.cards_items > div:nth-child(4) > a:nth-child(2) > img {
+    width: 2.1vw;
+}
+
+.cards_items > div:nth-child(4) > a:nth-child(3) > img {
+    width: 2.2vw;
+}
+
+.cards_items > div:nth-child(4) > img {
+    width: 5vw;
+}
+
+.cards_items p {
+    transform: translateY(-5vw);
+    color: var(--first-color-dark);
+}
+
+.cards_items > p:nth-child(2) {
+    font-family: "Barlow SemiBold", sans-serif;
+    font-size: 1.4vw;
+}
+
+.cards_items > p:nth-child(3) {
+    font-family: "Barlow", sans-serif;
+    font-size: 1.2vw;
+}
+
+.cards_items > div:nth-child(4) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 9vw;
+}
+
+
+/* Bolds Words */
+
+.bolds_words {
+    color: var(--first-toned-color);
+    font-weight: bold;
+}

@@ -1,0 +1,203 @@
+<!-- Landing Page (Main) -->
+<link rel="stylesheet" href="css/all-games.css">
+
+<main>
+    <div class="sidebar">
+
+        <div class="sidebar_container">
+
+            <div>
+                <p>Résultats : 10 sur 102 </p>
+            </div>
+
+            <div class="categories">
+                <h2>Catégories</h2>
+                <div class="categories_container">
+                    <label for="categorie1" class="radio">
+                        <input type="radio" name="myRadioField" id="categorie1" class="radio_input">
+                        <div class="radio_radio"></div>
+                        Adresse & Précision (25)
+                    </label>
+                    <label for="categorie2" class="radio">
+                        <input type="radio" name="myRadioField" id="categorie2" class="radio_input">
+                        <div class="radio_radio"></div>
+                        Course & Aventure (87)
+                    </label>
+                    <label for="categorie3" class="radio">
+                        <input type="radio" name="myRadioField" id="categorie3" class="radio_input">
+                        <div class="radio_radio"></div>
+                        Enquête & Enigme (51)
+                    </label>
+                    <label for="categorie4" class="radio">
+                        <input type="radio" name="myRadioField" id="categorie4" class="radio_input">
+                        <div class="radio_radio"></div>
+                        Logique & Réflexes (71)
+                    </label>
+                    <label for="categorie5" class="radio">
+                        <input type="radio" name="myRadioField" id="categorie5" class="radio_input">
+                        <div class="radio_radio"></div>
+                        Quizz & Défis (71)
+                    </label>
+                    <label for="categorie6" class="radio">
+                        <input type="radio" name="myRadioField" id="categorie6" class="radio_input">
+                        <div class="radio_radio"></div>
+                        Stratégie & Tactique (61)
+                    </label>
+
+                </div>
+                <div class="stroke"></div>
+            </div>
+
+            <div class="filter_by">
+                <h2>Filtrer par</h2>
+                <p>Nombre de joueurs</p>
+
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </div>
+        </div>
+
+        <div class="duration">
+            <h2>Durée</h2>
+            <div class="duration_container">
+                <label for="duration1" class="radio">
+                    <input type="radio" name="myRadioField" id="duration1" class="radio_input">
+                    <div class="radio_radio"></div>
+                    - De 20 min (15)
+                </label>
+                <label for="duration2" class="radio">
+                    <input type="radio" name="myRadioField" id="duration2" class="radio_input">
+                    <div class="radio_radio"></div>
+                    Entre 20 et 40 min (31)
+                </label>
+                <label for="duration3" class="radio">
+                    <input type="radio" name="myRadioField" id="duration3" class="radio_input">
+                    <div class="radio_radio"></div>
+                    Entre 40 min et 1 h (46)
+                </label>
+                <label for="duration4" class="radio">
+                    <input type="radio" name="myRadioField" id="duration4" class="radio_input">
+                    <div class="radio_radio"></div>
+                    Entre 1h et 2h30 (54)
+                </label>
+                <label for="duration5" class="radio">
+                    <input type="radio" name="myRadioField" id="duration5" class="radio_input">
+                    <div class="radio_radio"></div>
+                    + De 2h30 (39)
+                </label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="title_wrapper">
+            <h1>TOUS LES JEUX DE SOCIÉTÉ</h1>
+            <div>
+                <p>Trier par :</p>
+                <div class="filter">
+                    <label class="dropdown">
+
+                        <div class="dd-button">
+                            Pertinence
+                        </div>
+
+                        <input type="checkbox" class="dd-input" id="test">
+
+                        <ul class="dd-menu">
+                            <li></li>
+                            <li>Prix</li>
+                        </ul>
+
+                    </label>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="wrapper">
+        </div>
+
+        <div class="stroke"></div>
+
+        <div class="page_number_container">
+            <a>
+                <div class="page_number" id="page_number_active"><p>1</p></div>
+            </a>
+            <a>
+                <div class="page_number"><p>2</p></div>
+            </a>
+            <a>
+                <div class="page_number"><p>3</p></div>
+            </a>
+            <a>
+                <div class="page_number"><p>4</p></div>
+            </a>
+            <a>
+                <div class="page_number">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15.718" height="27.496" viewBox="0 0 15.718 27.496">
+                        <path id="arrow_down"
+                              d="M6.942,3.045h0a1.811,1.811,0,0,1,2.566,0L21.7,15.239a1.444,1.444,0,0,1,0,2.044L9.508,29.476a1.811,1.811,0,0,1-2.566,0h0a1.811,1.811,0,0,1,0-2.566L17.584,16.268,6.928,5.612A1.825,1.825,0,0,1,6.942,3.045Z"
+                              transform="translate(-6.407 -2.513)" fill="#fff"/>
+                    </svg>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    </div>
+</main>
+
+<script>
+    window.addEventListener('mounted', function (elem) {
+    console.log("ici l'appel au script de la BDD")
+    showList()
+
+
+    function generateList(games) {
+        console.log(games)
+
+        document.querySelector(".logo_heart")
+        function addToWishlist(_this) {
+            _this.classList.toggle('full_heart');
+        }
+
+        for (let game of games) {
+            let template = `<div class="grid_item">
+                <div>
+                    <a>
+                        <img src="img/games/${game.id_game}.jpg" alt="">
+                    </a>
+                </div>
+                <div class="data">
+                    <div>
+                        <p>${game.name_game}</p>
+                        <p>${game.release_date_game}</p>
+                    </div>
+                    <div>
+                        <img src="img/logos/pictograms/logo_heart.svg" alt="logo heart" class="logo_heart"
+                             onclick="addToWishlist()">
+                    </div>
+                </div>
+            </div>`
+            document.querySelector('.wrapper').innerHTML += template
+        }
+
+    }
+
+    function showList() {
+        return axios.get('http://localhost/toucano_ludio_json/dao/listeGame.php')
+            .then(({data}) => {
+                generateList(data)
+                console.log("ici l'appel à la BDD")
+            });
+    }
+
+    showList();
+    });
+
+</script>
+
+
+

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96.568" height="96.568" viewBox="0 0 96.568 96.568">
+  <g id="logo_arrow_round" transform="translate(-1442.719 -2527)">
+    <circle id="logo_arrow_round-2" data-name="logo_arrow_round" cx="32" cy="32" r="32" transform="translate(1472 2543)" fill="#fff"/>
+    <g id="arrow_back_white_24dp" transform="translate(1442.719 2527)">
+      <path id="Tracé_271" data-name="Tracé 271" d="M96.568,0H0V96.568H96.568Z" fill="none"/>
+      <path id="Tracé_272" data-name="Tracé 272" d="M6.312,16.9H27.471L18.227,7.652a1.909,1.909,0,0,1,0-2.69,1.886,1.886,0,0,1,2.671,0L33.381,17.445a1.886,1.886,0,0,1,0,2.671L20.9,32.6a1.889,1.889,0,1,1-2.671-2.671l9.244-9.244H6.312a1.894,1.894,0,0,1,0-3.789Z" transform="translate(41.868 29.504)" fill="#feaa28"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+.container_left_part > div:nth-child(3) {
+    margin-top: 2vw;
+}
+
+.container_left_part > div:nth-child(5) {
+    margin: 2vw 0;
+}

@@ -1,0 +1,54 @@
+/*===== Animations on Page Load   =====*/
+
+.l-main, .team_presentation_container {
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+/*===== Animations pwans and img   =====*/
+
+.main_container_right > img, .cards:before, .cards:after {
+    animation: bounce 5s infinite ease-in-out;
+
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-1vw);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*===== Animations shadow   =====*/
+
+.main_container_right::before  {
+    animation: shadow 5s infinite ease-in-out;
+}
+
+@keyframes shadow {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+

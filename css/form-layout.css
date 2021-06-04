@@ -1,0 +1,322 @@
+/*===== LEFT PART =====*/
+
+.form_connexion_close {
+    padding: 20px;
+    position: absolute;
+}
+
+.form_container_item_1 {
+    background-color: white;
+    width: 55%;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.form_container_item_2 {
+    background: linear-gradient(#FEEE28,#FEAA28);
+    width: 45%;
+    border-radius: 0 30px 30px 0;
+}
+
+.form_container_data {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+}
+
+.form_subtitle {
+    position: absolute;
+    top: 70%;
+    color: #707070;
+}
+
+.form_container_inscription > p {
+    margin: 20px 0;
+    color: #707070;
+}
+
+.form_container_inscription {
+    padding: 0 40px;
+}
+
+input:nth-child(2), input:nth-child(3) {
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    height: 40px;
+    margin-bottom: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.container_name, .container_email, .container_password {
+    position: relative;
+}
+.placeholder {
+    padding-left: 50px;
+}
+
+.logo_name, .logo_email, .logo_security, .logo_visible {
+    z-index: 1;
+    position: absolute;
+}
+
+.logo_email {
+    top: 12px;
+    left: 21px;
+}
+
+.logo_security {
+    top: 6px;
+    left: 21px;
+}
+
+.logo_visible {
+    top: 12px;
+    left: 260px;
+    cursor: pointer;
+}
+
+.form_container_informations {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0 20px 0;
+    font-size: 12px;
+    color: #707070;
+}
+
+.form_container_informations > p:nth-child(3){
+    position: absolute;
+    left: 62%;
+    cursor: pointer;
+}
+
+.btn_connexion {
+    text-align: center;
+    background:linear-gradient(90deg, #FEEE28,#FEAA28) ;
+    padding: 8px 0;
+    border-radius: 5rem;
+    width: 50%;
+    margin: auto;
+}
+
+.btn_connexion a {
+    color: white;
+}
+
+.btn_facebook, .btn_google {
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_facebook {
+    margin: 10px 0 10px 0 ;
+    background-color: #3B57AB;
+}
+
+.btn_facebook a {
+    color: white;
+    font-size: 12px;
+}
+
+.btn_google {
+    background-color: white;
+    border: 1px solid #707070;
+    margin: 10px 0 10px 0;
+}
+
+.btn_google a {
+    color: var(--first-color-dark);
+    font-size: 12px;
+}
+
+.btn_facebook > a , .btn_google > a {
+    margin-left: 10px;
+}
+
+.form_container_inscription > span {
+    color: #BDBDBD;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.form_container_bg_item_1 {
+    background-color: green;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.other_choice_connexion{
+    text-align: center;
+    color: #707070;
+}
+
+.other_choice_connexion::before, .other_choice_connexion::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: #707070;
+    width: 19%;
+    border-radius: 71px;
+}
+
+.other_choice_connexion::before {
+    top: 352px;
+    left: 42px;
+}
+
+.other_choice_connexion::after {
+    top: 352px;
+    left: 230px;
+}
+
+/*===== RIGHT PART =====*/
+
+.form_container_item_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form_item_2_title {
+    position: relative;
+    font-size: 30px;
+    color: white;
+}
+
+.form_item_2_subtitle {
+    position: absolute;
+    transform: translateY(65px);
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+
+/*===== CONNEXION =====*/
+
+.form_connexion_overlay {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+    z-index: 20;
+    display: flex;
+    backdrop-filter: blur(10px);
+}
+
+.form_connexion_overlay:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.form_connexion_content {
+    display: flex;
+    width: 50%;
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    overflow: auto;
+    border-radius: 30px;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.25);
+    box-shadow: 1rem 2rem 4rem rgba(0, 0, 0, 0.15);
+    transition: all 0.5s 0s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.form_connexion_overlay:target .form_connexion_content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/*===== INSCRIPTION =====*/
+
+.form_inscription_overlay {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+    z-index: 20;
+    display: flex;
+    backdrop-filter: blur(10px);
+}
+
+.form_inscription_overlay:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.form_inscription_content {
+    display: flex;
+    width: 50%;
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    overflow: auto;
+    border-radius: 30px;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.25);
+    box-shadow: 1rem 2rem 4rem rgba(0, 0, 0, 0.15);
+    transition: all 0.5s 0s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.form_inscription_overlay:target .form_inscription_content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.other_choice_inscription{
+    text-align: center;
+    color: #707070;
+}
+
+.other_choice_inscription::before, .other_choice_inscription::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: #707070;
+    width: 19%;
+    border-radius: 71px;
+}
+
+.other_choice_inscription::before {
+    top: 407px;
+    left: 42px;
+}
+
+.other_choice_inscription::after {
+    top: 407px;
+    left: 230px;
+}
+
+.logo_name {
+    top: 9px;
+    left: 20px;
+}
